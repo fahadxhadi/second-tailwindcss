@@ -30,9 +30,9 @@ jobs:
       - name: Build
         run: npm run build
 
-      - name: Setup Pages
-        uses: actions/configure-pages@v5
-
+     git add .
+git commit -m "fix github pages"
+git push
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
